@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <h1 class="logo">我的博客</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">首页</a>
+                <a href="about.html" class="nav-link">关于</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <div class="layout">
+            <section class="articles">
+                <h2 class="section-title">最新文章</h2>
+                <div id="article-list" class="article-list">
+                    <article class="article-card">
+                        <h3 class="article-title">
+                            <a href="article.html?id=1">我的第一篇博客：Hello World</a>
+                        </h3>
+                        <p class="article-excerpt">
+                            每个程序员的第一篇博客都从 Hello World 开始。这篇文章记录了我搭建这个博客的全过程，包括遇到的坑和解决办法...
+                        </p>
+                        <div class="article-meta">
+                            <span class="article-date">2026-09-20</span>
+                            <span class="article-tag">随笔</span>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <h3 class="article-title">
+                            <a href="article.html?id=2">HTML 入门：网页的骨架</a>
+                        </h3>
+                        <p class="article-excerpt">
+                            HTML 是构建网页的基础。这篇文章我会用最简单的方式介绍 HTML 的核心概念，包括常用标签和页面结构...
+                        </p>
+                        <div class="article-meta">
+                            <span class="article-date">2026-09-20</span>
+                            <span class="article-tag">前端</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <h3 class="sidebar-title">关于我</h3>
+                    <p class="sidebar-text">
+                        信息工程专业大二学生，正在学习 Web 开发。这个博客是我第一个练手项目。
+                    </p>
+                </div>
+                <div class="sidebar-card">
+                    <h3 class="sidebar-title">标签</h3>
+                    <div class="tag-cloud">
+                        <span class="tag">随笔</span>
+                        <span class="tag">前端</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的博客 · 由 GitHub Pages 提供托管</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" title="回到顶部">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

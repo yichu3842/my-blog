@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "我的第一篇博客：Hello World",
+        "excerpt": "每个程序员的第一篇博客都从 Hello World 开始。这篇文章记录了我搭建这个博客的全过程...",
+        "date": "2026-09-20",
+        "tag": "随笔",
+        "content": "这里是文章正文，在学习阶段3时用 Fetch API 加载这段内容。"
+    },
+    {
+        "id": 2,
+        "title": "HTML 入门：网页的骨架",
+        "excerpt": "HTML 是构建网页的基础。这篇文章我会用最简单的方式介绍 HTML 的核心概念...",
+        "date": "2026-09-20",
+        "tag": "前端",
+        "content": "这里是文章正文，在学习阶段3时用 Fetch API 加载这段内容。"
+    },
+    {
+        "id": 3,
+        "title": "CSS 布局：Flexbox 详解",
+        "excerpt": "Flexbox 是 CSS 中最强大的布局工具之一，这篇文章带你从零掌握它...",
+        "date": "2026-09-20",
+        "tag": "CSS",
+        "content": "这里是文章正文，在学习阶段3时用 Fetch API 加载这段内容。"
+    },
+    {
+        "id": 4,
+        "title": "JavaScript 基础：让网页动起来",
+        "excerpt": "JavaScript 是网页的大脑。这篇文章介绍 JS 的基本语法和 DOM 操作...",
+        "date": "2026-09-20",
+        "tag": "JavaScript",
+        "content": "这里是文章正文，在学习阶段3时用 Fetch API 加载这段内容。"
+    }
+]
